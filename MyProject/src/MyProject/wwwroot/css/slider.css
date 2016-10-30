@@ -1,0 +1,18 @@
+﻿.slides{
+    position:relative;
+    background-color:rgba(215, 213, 211, 0.28);
+    height:300px;
+    width:100%;
+    }
+.slides  img{
+    position: absolute;
+    top:0px;
+   
+    
+    
+    z-index:-2;
+}
+
+.slides  img.top{
+    z-index:-1;
+}

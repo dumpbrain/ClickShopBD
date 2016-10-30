@@ -1,0 +1,67 @@
+﻿@*@{
+    ViewBag.Title = "Home Page";
+}*@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click Shop Bangladesh- @ViewBag.Title</title>
+
+    <link rel="stylesheet" href="~/css/design.css" />
+    <link rel="stylesheet" href="~/css/slider.css" />
+</head>
+<body>
+    @*top menu starts*@
+    <div>
+        <ul id="wishlist">
+            <li><a asp-controller="App" asp-action="Index">SELL PRODUCT</a></li>
+            <li><a asp-controller="App" asp-action="Index">ORDER</a></li>
+            <li><a asp-controller="App" asp-action="Index">LOG IN</a></li>
+            <li><a asp-controller="App" asp-action="Index">SIGN UP</a></li>
+            <li><a asp-controller="App" asp-action="Contact">CONTACT</a></li>
+        </ul>
+    </div>
+    @*top menu ends*@
+
+    @*logo starts*@
+    <div id="header">
+        
+        <a asp-controller="App" asp-action="Index"><img class="logo" src="~/images/clickshoplogo.jpg" height="10" width="10" /></a>
+
+    </div>
+    @*logo ends*@
+
+    @*menu starts*@
+    <div id="transperant_menu">
+        <div id="nav_wrapper">
+            <ul id="menu">
+                <li>
+                    <a asp-controller="App" asp-action="Index">Electronics</a>
+                    <ul>
+                        <li><a asp-controller="App" asp-action="Contact">Mobiles</a></li>
+                        <li><a asp-controller="App" asp-action="Contact">Tablets</a></li>
+                        <li><a asp-controller="App" asp-action="Contact">Accessories</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Women's Fashion</a></li>
+                <li><a asp-controller="App" asp-action="Contact">Men's Fashion</a></li>
+                <li><a asp-controller="App" asp-action="About">Home & Living</a></li>
+                <li><a asp-controller="App" asp-action="About">Health & Beauty</a></li>
+                <li><a asp-controller="App" asp-action="About">Baby & Toys</a></li>
+                <li><a asp-controller="App" asp-action="About">Sports & Travel</a></li>
+                <li><a asp-controller="App" asp-action="About">Others</a></li>
+            </ul>
+        </div>
+    </div>
+    @*menu ends*@
+
+    @RenderBody()    @*body part*@
+
+    @*footer starts*@
+    <div id="footer">
+        &copy;2016 Click Shop Bangladesh
+    </div>
+    @*footer ends*@
+
+</body>
+</html>

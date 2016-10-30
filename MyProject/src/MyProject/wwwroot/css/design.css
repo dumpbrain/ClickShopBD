@@ -1,0 +1,154 @@
+﻿/*top menu starts*/
+#wishlist{
+    background-color: rgba(83, 80, 80, 0.12);
+    font-size: 12px;
+    text-align:right;
+    padding: 4px 4px;
+    margin: 0;
+    
+}
+
+#wishlist li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+#wishlist li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#wishlist li a:hover{
+    color: white;
+}
+
+/*top menu ends*/
+body{
+    font-family:sans-serif;
+    font-size: 20px;
+    background-color: #23FFF;
+    margin: 0;
+
+    
+}
+
+/*logo part starts*/
+#header{
+    background-color: rgba(44, 42, 42, 0.24);
+    color: aliceblue;
+    height: 80px;
+    width: 100%;
+     
+}
+
+#header h3{
+    color: #ffffff;
+    position: fixed;
+    top: 12px;
+}
+
+#header img.logo{
+    width: 120px;
+    height: 60px;
+    padding-top: 12px;
+    padding-left:35px;
+}
+
+/*logo part ends*/
+
+/*#menu{
+   font-size: 18px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color:rgba(72, 70, 70, 0.15);
+   margin: 0;
+
+}
+
+#menu li{
+    list-style-type: none;
+    background-color:rgba(72, 70, 70, 0.15);
+    
+    display: inline;
+    padding-left: 15px;
+    padding-right:8px;
+}
+
+#menu li a{
+    color: #000000;
+    text-decoration: none;
+}*/
+
+/*tranperrant menu starts*/
+#transperant_menu{
+    background-color:rgba(128, 129, 131, 0.14);
+    width: 100%;
+    height: 40px;
+
+
+}
+#transperant_menu ul{
+    position: absolute;
+    top: 80px;
+  
+}
+
+#transperant_menu ul li {
+    
+    list-style-type: none;
+    display: inline-block;
+}
+
+#transperant_menu ul li a{
+    padding: 14px;
+    text-decoration: none;
+     color: #000000;
+     display: block;
+}
+
+#transperant_menu ul li:hover{
+    background: rgba(141, 145, 150, 0.21);
+    height:40px;
+    
+   
+}
+
+#transperant_menu ul li:hover ul{
+    display: block;
+    top: 50px;
+}
+/*sub menu starts*/
+#transperant_menu ul ul{
+    display: none;
+    width: 20px; /*needed to sub menu widen*/
+    position: absolute;
+}
+
+/*sub menu ends*/
+#nav_wrapper{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*transperant menu ends*/
+
+
+
+body div img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+
+#footer{
+    background-color:#313131;
+    color:aliceblue;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    padding: 2px 2px;
+    bottom: 0;
+}
+
