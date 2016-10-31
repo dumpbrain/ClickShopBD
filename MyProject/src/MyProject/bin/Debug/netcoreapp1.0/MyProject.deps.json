@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "6815c58e183b10062485275f5b415b96292b7bab"
+    "signature": "736a79d5f65a43fb9e5561fdfb161734e1931906"
   },
   "compilationOptions": {
     "defines": [
@@ -24,7 +24,7 @@
           "Microsoft.AspNetCore.StaticFiles": "1.0.0",
           "Microsoft.Extensions.Logging.Console": "1.0.0",
           "Microsoft.AspNetCore.Mvc.TagHelpers": "1.0.1",
-          "jQuery": "1.10.2",
+          "jQuery": "3.1.1",
           "Microsoft.NETCore.App": "1.0.1"
         },
         "runtime": {
@@ -34,7 +34,7 @@
           "MyProject.dll": {}
         }
       },
-      "jQuery/1.10.2": {},
+      "jQuery/3.1.1": {},
       "Microsoft.AspNetCore.Antiforgery/1.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "1.0.0",
@@ -2839,10 +2839,10 @@
       "serviceable": false,
       "sha512": ""
     },
-    "jQuery/1.10.2": {
+    "jQuery/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uPspgAZqsXYOwLW+Kf3uRxdFAyX1EiEd6AWJhCsnZNVsUJmEbsZSxA0P+ku6oAhHI682TOSwkbmmJPwFgdY5cA=="
+      "sha512": "sha512-XGsgwse025NxNPHjY7GE8HMFNzjqsa7a/PmNS1S5bVU++pNpZmiTnzUBK6OmECnqG/fIMVaAYHTnfoYd/Wz28g=="
     },
     "Microsoft.AspNetCore.Antiforgery/1.0.1": {
       "type": "package",

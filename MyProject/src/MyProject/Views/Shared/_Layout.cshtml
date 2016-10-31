@@ -1,14 +1,12 @@
-﻿@*@{
-    ViewBag.Title = "Home Page";
-}*@
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <title>Click Shop Bangladesh- @ViewBag.Title</title>
 
     <link rel="stylesheet" href="~/css/design.css" />
-    <link rel="stylesheet" href="~/css/slider.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/animatedtext.css" />
+
 </head>
 <body>
     @*top menu starts*@
@@ -55,7 +53,10 @@
     </div>
     @*menu ends*@
 
+
     @RenderBody()    @*body part*@
+
+
 
     @*footer starts*@
     <div id="footer">
